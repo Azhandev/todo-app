@@ -7,7 +7,7 @@ function addtodo() {
     todoApp.push(inputs.value)
     ul.innerHTML = ``
     console.log(todoApp);
-    inputs.value = '';
+    inputs.value = ''; 
     // deleteRow() 
 
     for (let i = 0; i < todoApp.length; i++) {
