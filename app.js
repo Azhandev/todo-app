@@ -8,7 +8,6 @@ function addtodo() {
     ul.innerHTML = ``
     console.log(todoApp);
     inputs.value = ''; 
-    // deleteRow() 
 
     for (let i = 0; i < todoApp.length; i++) {
 
