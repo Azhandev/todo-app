@@ -1,4 +1,4 @@
-
+ 
 const inputs = document.querySelector('#todo')
 const ul = document.querySelector('#ul')
 let todoApp = []
